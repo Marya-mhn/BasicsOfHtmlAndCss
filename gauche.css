@@ -1,0 +1,175 @@
+* {
+  /*  border-top: 10px solid #1098ad;*/
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #444;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+nav {
+  float: right;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 40px 40px;
+  width: 500px;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: capitalize;
+  font-style: oblique;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+P {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+/*footer p {
+  font-size: 14px;
+}*/
+
+/*article header p {
+  font-style: italic;
+}*/
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 14px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+}
+
+/*.first-li {
+  font-weight: bold;
+}*/
+
+li:first-child {
+  font-style: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(even) {
+  /*color: bisque;*/
+}
+
+/*styling links*/
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  /*color: #777;*/
+  color: #1098ad;
+}
+
+a:hover {
+  color: #03343c;
+  font-weight: bold;
+  text-decoration: underline #03343c;
+}
+
+a:active {
+  background-color: darkgray;
+  font-style: italic;
+}
+/* LVHA */
+
+/*Floats*/
+/*.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+h1 {
+  float: left;
+}
+
+*/
